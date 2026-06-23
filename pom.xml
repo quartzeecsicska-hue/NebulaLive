@@ -1,26 +1,19 @@
-?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://apache.org"
-         xmlns:xsi="http://w3.org"
-         xsi:schemaLocation="http://apache.org http://apache.org">
+<project xmlns="http://apache.org" xmlns:xsi="http://w3.org" xsi:schemaLocation="http://apache.org http://apache.org">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>hu.media.livecommand</groupId>
     <artifactId>NebulaLive</artifactId>
     <version>1.0</version>
-
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <repositories>
         <repository>
             <id>papermc</id>
             <url>https://papermc.io</url>
         </repository>
     </repositories>
-
     <dependencies>
         <dependency>
             <groupId>com.velocitypowered</groupId>
@@ -30,4 +23,3 @@
         </dependency>
     </dependencies>
 </project>
-Körültekintően használja a kódot.
